@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // background-color: black;
+}
+
+body{
+    background-color: black;
+    transition: all 1s;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid white;
+}
+
+.head{
+    background-color: black;
+}
+
+.color1 {
+    background-color: rgb(1,15,58);
+}
+
+.color2 {
+    background-color: rgb(25, 45, 108);
+}
+
+.color3{
+    background-color: rgb(54, 47, 140);
+}
+.midnightInner, .midnightHeader{z-index: 999;}
+.midnightHeader.black{
+    #logo{
+        background-image: url(../images/moon1.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+}
+.midnightHeader.phase1{
+    #logo{
+        background-image: url(../images/moon2.svg);
+        color: white
+    }
+}
+.midnightHeader.phase2{
+    #logo{
+        background-image: url(../images/moon3.svg);
+        color: white
+    }
+}
+.midnightHeader.white{
+    #logo{
+        background-image: url(../images/moon4.svg);
+        color: white
+    }
+}
