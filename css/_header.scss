@@ -91,8 +91,9 @@ aside.open{
     background-color: red;
     z-index: 1002;
     position: fixed;
-    top:0;
-    right:0;
+    margin: 0;
+    padding: 0;
+
     ul{
         display: flex;
         flex-direction: column;
