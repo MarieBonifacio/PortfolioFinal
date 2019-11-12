@@ -5,8 +5,6 @@ let bouton = document.querySelector('#burgerButton');
 console.log(bouton);
 
 bouton.addEventListener("click", function(){
-    console.log('bite');
-    
     document.querySelector('aside').classList.add('open');
 });
 

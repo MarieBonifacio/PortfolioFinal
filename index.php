@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="https://kit.fontawesome.com/0caf2b0443.js" crossorigin="anonymous"></script>
     <script src="./js/midnight.jquery.min.js"></script>
     <script>
@@ -38,6 +39,7 @@ $(document).ready(function(){
         </div>
     </header>
     <aside>
+        <ion-icon id="closeButton" name="close-circle"></ion-icon>
         <nav>
             <ul>
                 <a href="#"><li>Accueil</li></a>
