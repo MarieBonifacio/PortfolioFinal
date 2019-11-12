@@ -8,11 +8,17 @@ bouton.addEventListener("click", function(){
     document.querySelector('aside').classList.add('open');
 });
 
+//fermer menu burger
+let boutonFermer = document.querySelector('#closeButton');
+boutonFermer.addEventListener("click", function(){
+    document.querySelector('aside').classList.remove('open');
+});
+
 
 
 // changement de couleur au scroll
 
-const colors = ['head', 'color1', 'color2', 'color3'];
+const colors = ['head', 'color1', 'color2', 'color3', 'color4', 'color5'];
 
 const sections = [...document.getElementsByTagName('section')];
 

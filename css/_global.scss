@@ -7,7 +7,7 @@
 
 body{
     background-color: black;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 section {
@@ -20,16 +20,25 @@ section {
 }
 
 .color1 {
-    background-color: rgb(1,15,58);
+    background-color: rgb(1, 4, 14);
 }
 
 .color2 {
-    background-color: rgb(25, 45, 108);
+    background-color: rgb(1, 15, 58);
 }
 
 .color3{
-    background-color: rgb(54, 47, 140);
+    background-color: rgb(30, 26, 73);
 }
+
+.color4{
+    background-color: rgb(59, 58, 119);
+}
+
+.color5{
+    background-color: rgb(47, 72, 140);
+}
+
 .midnightInner, .midnightHeader{z-index: 999;}
 .midnightHeader.black{
     #logo{
@@ -51,9 +60,23 @@ section {
         color: white
     }
 }
-.midnightHeader.white{
+.midnightHeader.phase3{
     #logo{
         background-image: url(../images/moon4.svg);
+        color: white
+    }
+}    
+
+.midnightHeader.phase4{
+    #logo{
+        background-image: url(../images/moon5.svg);
+        color: white
+    }
+}    
+
+.midnightHeader.phase5{
+    #logo{
+        background-image: url(../images/moon6.svg);
         color: white
     }
 }

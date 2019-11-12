@@ -26,7 +26,7 @@ $(document).ready(function(){
             <!-- <img src="./images/logo.png"/> -->
         </div>
         </div>
-        <div id="burgerButton">X</div>
+        <ion-icon id="burgerButton" name="menu"></ion-icon>
         <div id="menuFull">
             <nav>
                 <ul>
@@ -62,9 +62,18 @@ $(document).ready(function(){
     <h1 id="third-h1"></h1>
     </section>
 
-    <section data-midnight="white">
+    <section data-midnight="phase3">
     <h1 id="fourth-h1"></h1>
     </section>
+
+    <section data-midnight="phase4" >
+    <h1 id=""></h1>
+    </section>
+
+    <section data-midnight="phase5" >
+    <h1 id=""></h1>
+    </section>
+
 </body>
 <script src="./js/index.js"><script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
