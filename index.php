@@ -40,6 +40,7 @@ $(document).ready(function(){
     </header>
     <aside>
         <ion-icon id="closeButton" name="close-circle"></ion-icon>
+        <div id="clear"></div>
         <nav>
             <ul>
                 <a href="#"><li>Accueil</li></a>
