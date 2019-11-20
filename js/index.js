@@ -1,4 +1,6 @@
-// AOS.init();
+AOS.init()
+
+
 
 //Menu burger
 let bouton = document.querySelector('#burgerButton');
@@ -25,7 +27,7 @@ const sections = [...document.getElementsByTagName('section')];
 
 window.addEventListener('scroll', function () {
 
-    const scrollFromTop = window.pageYOffset;
+    const scrollFromTop = window.pageYOffset-window.innerHeight;
 
     for (let i = 0; sections.length > i; i++) {
         
@@ -34,15 +36,18 @@ window.addEventListener('scroll', function () {
             break;
         };
     };
-
-    // for (let i = 0; sections.length > i; i++) {
-
-    // if (scrollFromTop <= sections[i].offsetTop) {
-    //     document.body.className = colors[i] 
-    //     break
-    // } 
+//flêches header
+    if(scrollFromTop >300){
+        document.querySelector('#arrowDown').classList.add("hide");
+    }else{
+        document.querySelector('#arrowDown').classList.remove("hide");
+    }
 
 }
 );
+
+//dessins footer
+
+
 
 //midnight js

@@ -12,7 +12,7 @@ body{
 
 section {
     height: 100vh;
-    border: 1px solid white;
+    // border: 1px solid white;
 }
 
 .head{
@@ -20,24 +20,26 @@ section {
 }
 
 .color1 {
-    background-color: rgb(1, 4, 14);
+    background-color: var(--color1);
 }
 
 .color2 {
-    background-color: rgb(1, 15, 58);
+    background-color: var(--color2);
 }
 
 .color3{
-    background-color: rgb(30, 26, 73);
+    background-color: var(--color3);
 }
 
 .color4{
-    background-color: rgb(59, 58, 119);
+    background-color:  var(--color4);
 }
 
 .color5{
-    background-color: rgb(47, 72, 140);
+    background-color: var(--color5);
 }
+
+
 
 .midnightInner, .midnightHeader{z-index: 999;}
 .midnightHeader.black{

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/index.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="https://kit.fontawesome.com/0caf2b0443.js" crossorigin="anonymous"></script>
@@ -51,12 +52,38 @@ $(document).ready(function(){
         </nav>
     </aside>
 
-    <section data-midnight="black">
-    <h1 id="first-h1"></h1>
+    <section data-midnight="black" class="section1">
+        <h1 id="first-h1"></h1>
+        <i id="arrowDown" class="material-icons">
+            double_arrow
+            </i>
+        <div id="hello">
+            <h2>Hello<h2>
+        </div>
+        <div id="mainMoth"> </div>
+
     </section>
 
-    <section data-midnight="phase1">
-    <h1 id="second-h1"></h1>
+    <section class="section2" data-midnight="phase1">
+        <h1 id="second-h1"></h1>
+        <div class="mainWindow" data-aos="fade-down" data-aos-anchor-placement="top-center">
+            <div class="mainWindowInner">
+                <div class="mainWindowFront">
+                    <div id="push">
+                        <i class="material-icons push1">
+                            arrow_forward_ios
+                        </i>
+                        <p>push</p>
+                        <i class="material-icons push2">
+                            arrow_forward_ios
+                        </i>
+                    </div>
+                </div>
+            <div class="mainWindowBack">
+                <p>coucou</p>
+            </div>
+            </div>
+        </div>
     </section>
 
     <section data-midnight="phase2" >
@@ -67,15 +94,38 @@ $(document).ready(function(){
     <h1 id="fourth-h1"></h1>
     </section>
 
-    <section data-midnight="phase4" >
-    <h1 id=""></h1>
+    <section data-midnight="phase4" class="section5" >
+        <h1 id=""></h1>
+        <div data-aos="flip-left" class="form">
+            <div id="cadre">
+                <h2>Me Contacter</h2>
+                <form action="" method="post"> 
+                    
+                        <input type="email" id="mail" name="mail" placeholder="Adresse Mail">
+                    
+                        <input type="url" id="url" name="url" placeholder="Adresse URL">
+
+                        <textarea id="message" name="message" placeholder="Votre message"></textarea>
+
+                        <button type="submit" class="myButton" id="bouton" value="Click!">Envoyer</button>
+                </form>
+            </div>
+        </div>
     </section>
 
-    <section data-midnight="phase5" >
-    <h1 id=""></h1>
+    <section data-midnight="phase5" class="section6" >
+        <h1 id=""></h1>
+        
+        <img src="images/deer.svg" id="montain"/>
+        <img src="images/forest.svg" id="fond"/>
+        <img src="images/vectorpaint.svg" id="mont" />
+
     </section>
+
+    <footer>
+    </footer>
 
 </body>
-<script src="./js/index.js"><script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./js/index.js"></script>
 </html>

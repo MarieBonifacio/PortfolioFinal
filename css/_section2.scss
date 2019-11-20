@@ -1,0 +1,87 @@
+.section2{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .mainWindow{
+        margin:auto;
+        height: 70%;
+        width: 80%;
+        border-radius: 5%;
+        perspective: 1000px;
+    }
+    
+    .mainWindowInner{
+        box-shadow: 0px 10px 35px -1px rgba(0,0,0,0.52);
+        position: relative;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        border-radius: 5%;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+
+.mainWindow:hover .mainWindowInner{
+    transform: rotateY(180deg);
+}
+
+.mainWindowFront, .mainWindowBack{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.mainWindowFront{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 5%;
+    background-color:var(--color1);
+    #push{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .material-icons.push1{
+            left: 10px;
+            position: relative;
+            animation: .5s linear 1s infinite alternate fromLeft;
+            transition: 1s;
+        }
+        .material-icons.push2{
+            position: relative;
+            animation: .5s linear 1s infinite alternate fromRight;
+            transition: 1s;
+            transform: rotate(180deg);
+            right:10px;
+        }
+        .material-icons.push1, .push2{
+            font-size: 2em;
+        }
+    }
+}
+    
+
+.mainWindowBack{
+    border-radius: 5%;
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+}
+
+@keyframes fromLeft{
+    from {left: 0;}
+    to   {left: 1.5%;}
+}
+
+@keyframes fromRight{
+    from {right: 0;}
+    to   {right: 1.5%;}
+}
