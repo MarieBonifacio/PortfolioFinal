@@ -86,19 +86,24 @@ $(document).ready(function(){
         </div>
     </section>
 
-    <section data-midnight="phase2" >
+    <section class="section3" data-midnight="phase2" >
     <h1 id="third-h1"></h1>
+        <div class="bloc" data-aos="fade-down-right"></div>
+        <div class="bloc" data-aos="fade-down-left"></div>
+        <div class="bloc" data-aos="fade-up-right"></div>
+        <div class="bloc" data-aos="fade-up-left"></div>
     </section>
 
-    <section data-midnight="phase3">
+    <section class="section4" data-midnight="phase3">
     <h1 id="fourth-h1"></h1>
+    <!-- foreach -->
     </section>
 
     <section data-midnight="phase4" class="section5" >
         <h1 id=""></h1>
+        <h2>Me Contacter</h2>
         <div data-aos="flip-left" class="form">
             <div id="cadre">
-                <h2>Me Contacter</h2>
                 <form action="" method="post"> 
                     
                         <input type="email" id="mail" name="mail" placeholder="Adresse Mail">
@@ -110,6 +115,11 @@ $(document).ready(function(){
                         <button type="submit" class="myButton" id="bouton" value="Click!">Envoyer</button>
                 </form>
             </div>
+        </div>
+        <div id="ext" data-aos="fade-down">
+            <p>Ici aussi !</p>
+            <img class="logo" alt="Linkedin" src="images/Github.svg"/>
+            <img class="logo" alt="Github" src="images/Linkedin.svg"/> 
         </div>
     </section>
 

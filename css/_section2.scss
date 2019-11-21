@@ -1,11 +1,13 @@
 .section2{
     color:white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
     .mainWindow{
         margin:auto;
+        bottom: 20px;
         height: 70%;
         width: 80%;
         border-radius: 5%;
@@ -40,7 +42,8 @@
     justify-content: flex-end;
     align-items: center;
     border-radius: 5%;
-    background-color:var(--color1);
+    border: 0.2px solid white;
+    background-color:black;
     #push{
         width: 100%;
         display: flex;
@@ -70,7 +73,7 @@
 
 .mainWindowBack{
     border-radius: 5%;
-    background-color: dodgerblue;
+    background-color:var(--color1) ;
     color: white;
     transform: rotateY(180deg);
 }

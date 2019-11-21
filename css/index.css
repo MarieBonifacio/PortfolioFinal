@@ -22,6 +22,7 @@ body {
 
 section {
   height: 100vh;
+  border: 1px solid white;
 }
 
 .head {
@@ -129,7 +130,6 @@ header #burgerButton {
   z-index: 99999;
   top: 0;
   right: 0;
-  margin: 30px;
   cursor: pointer;
 }
 
@@ -329,6 +329,10 @@ aside.open ul a li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -339,6 +343,7 @@ aside.open ul a li {
 
 .section2 .mainWindow {
   margin: auto;
+  bottom: 20px;
   height: 70%;
   width: 80%;
   border-radius: 5%;
@@ -390,7 +395,8 @@ aside.open ul a li {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 5%;
-  background-color: var(--color1);
+  border: 0.2px solid white;
+  background-color: black;
 }
 
 .section2 .mainWindowFront #push {
@@ -436,7 +442,7 @@ aside.open ul a li {
 
 .section2 .mainWindowBack {
   border-radius: 5%;
-  background-color: dodgerblue;
+  background-color: var(--color1);
   color: white;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
@@ -478,10 +484,38 @@ aside.open ul a li {
   }
 }
 
+.section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow-x: hidden;
+}
+
+.section3 .bloc {
+  margin: auto;
+  height: 200px;
+  width: 150px;
+  border: solid 1px white;
+  -webkit-box-shadow: 0px 10px 35px -1px rgba(0, 0, 0, 0.52);
+          box-shadow: 0px 10px 35px -1px rgba(0, 0, 0, 0.52);
+}
+
 .section5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -497,6 +531,7 @@ aside.open ul a li {
   border-radius: 5%;
   -webkit-box-shadow: 0px 10px 35px -1px rgba(0, 0, 0, 0.52);
           box-shadow: 0px 10px 35px -1px rgba(0, 0, 0, 0.52);
+  margin: auto;
 }
 
 .section5 .form #cadre {
@@ -625,6 +660,28 @@ aside.open ul a li {
           box-shadow: 0 5px #666;
   -webkit-transform: translateY(4px);
           transform: translateY(4px);
+}
+
+.section5 #ext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 90px;
+  width: 80%;
+  border: solid 1px white;
+  -webkit-box-shadow: 0px 10px 35px -1px rgba(0, 0, 0, 0.52);
+          box-shadow: 0px 10px 35px -1px rgba(0, 0, 0, 0.52);
+  margin: auto;
+}
+
+.section5 #ext .logo {
+  height: 50px;
+  width: 50px;
 }
 
 .section6 {

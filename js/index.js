@@ -1,7 +1,6 @@
 AOS.init()
 
 
-
 //Menu burger
 let bouton = document.querySelector('#burgerButton');
 console.log(bouton);
