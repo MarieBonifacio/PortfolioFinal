@@ -63,13 +63,18 @@ $(document).ready(function(){
         <div id="mainMoth"> </div>
 
     </section>
-
+                <!-- PRESENTATION -->
     <section class="section2" data-midnight="phase1">
         <h1 id="second-h1"></h1>
         <div class="mainWindow" data-aos="fade-down" data-aos-anchor-placement="top-center">
             <div class="mainWindowInner">
                 <div class="mainWindowFront">
-                    <div id="push">
+                    <div class="photo"></div>
+                    <div class ="presentation">
+                        <p>Marie Bonifacio<p></br>
+                        <p>Développeuse web</b>
+                    </div>
+                    <div class="push">
                         <i class="material-icons push1">
                             arrow_forward_ios
                         </i>
@@ -81,21 +86,28 @@ $(document).ready(function(){
                 </div>
             <div class="mainWindowBack">
                 <p>coucou</p>
+                <div class="pitch">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis explicabo ipsam enim accusantium impedit quidem nostrum, reiciendis sequi inventore perspiciatis facere mollitia sint blanditiis! Cupiditate atque exercitationem quia eos nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam dolores nisi exercitationem reprehenderit molestias sint laudantium porro, natus et modi, repellendus aliquid perspiciatis odit nemo sunt explicabo distinctio inventore?</p>
+                </div>
             </div>
             </div>
         </div>
     </section>
 
     <section class="section3" data-midnight="phase2" >
-    <h1 id="third-h1"></h1>
-        <div class="bloc" data-aos="fade-down-right"></div>
-        <div class="bloc" data-aos="fade-down-left"></div>
-        <div class="bloc" data-aos="fade-up-right"></div>
-        <div class="bloc" data-aos="fade-up-left"></div>
+    <h1 id="third-h1"Compétences></h1>
+        <div class="bloc" data-aos="fade-down-right"><img src="images/competences/Symfony.svg"/><p>Symfony</p></div>
+        <div class="bloc" data-aos="fade-down-left"><img src="images/competences/Laravel.svg"/><p>Laravel</p></div>
+        <div class="bloc" data-aos="fade-down-right"><img src="images/competences/Wordpress.svg"/><p>Wordpress</p></div>
+        <div class="bloc" data-aos="fade-down-left"><img src="images/competences/Php.svg"/><p>PHP</p></div>
+        <div class="bloc" data-aos="fade-up-right"><img src="images/competences/MySql.svg"/><p>MySQL</p></div>
+        <div class="bloc" data-aos="fade-up-left"><img src="images/competences/Apache.svg"/><p>Apache</p></div>
+        <div class="bloc" data-aos="fade-up-right"><img src="images/competences/Docker.svg"/><p>Docker</p></div>
+        <div class="bloc" data-aos="fade-up-left"><img src="images/competences/Linux.svg"/><p>Linux</p></div>
     </section>
 
     <section class="section4" data-midnight="phase3">
-    <h1 id="fourth-h1"></h1>
+    <h1 id="fourth-h1">Portfolio</h1>
     <!-- foreach -->
     </section>
 
